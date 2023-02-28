@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile Card</title>
+    <link rel="stylesheet" href="./profileCard.css" />
+    <script src="./profileCard.js" defer></script>
+  </head>
+  <body>
+    <div class="formCaontainer" >
+      <form id="userProfileForm" action="#" type="submit">
+      <h2 style="background-color: #fff;">Add Profile</h2>
+      </br>
+      <div class="categoriesContainer">
+        <div class="categories">
+          <div class="title">
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="img" />
+            <h4>Where do you currently work?</h4>
+          </div>
+          <h6>
+            Members who include at least one position receive up to 3.5 times as
+            many profile views
+          </h6>
+          <dialog id="positionDialog">
+          </dialog>
+          <button id="position">Add position</button>
+        </div>
+        <div class="categories">
+          <div class="title">
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="img" />
+            <h4>Which industry do you work in?</h4>
+          </div>
+          <h6>
+            Members who add an industry receive up to 2.5 times as many profile
+            views
+          </h6>
+          <dialog id="industryDialog">
+          </dialog>
+          <button id="industry">Add industry</button>
+        </div>
+        <div class="categories">
+          <div class="title">
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="img" />
+            <h4>Add a profile photo to help others recognize you</h4>
+          </div>
+          <h6>
+            Members with a profile photo receive up to 2.3 times as many profile
+            views
+          </h6>
+          <dialog id="photoDialog">
+          </dialog>
+          <button id="photo">Add photo</button>
+        </div>
+        <div class="categories">
+          <div class="title">
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="img" />
+            <h4>Which university or school did you attend?</h4>
+          </div>
+          <h6>
+            Members who include a school receive up to 2.2 times as many profile
+            views
+          </h6>
+          <dialog id="educationDialog">
+          </dialog>
+          <button id="education">Add education</button>
+        </div>
+        <div class="categories">
+          <div class="title">
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="img" />
+            <h4>
+              Write a summary to highlight your personality or work experience
+            </h4>
+          </div>
+          <h6>
+            Members who include a summary receive up to 3.9 times as many
+            profile views
+          </h6>
+          <dialog id="summaryDialog">
+          </dialog>
+          <button id="summary">Add a summary</button>
+        </div>
+      </div>
+    </br>
+      <button type="submit">Submit</button>
+    </form>
+    </div>
+  </body>
+</html>
